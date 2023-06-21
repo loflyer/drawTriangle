@@ -1,0 +1,3 @@
+D:/code/openGL/drawTriangle/build/CMakeFiles/drawtriangle.dir
+D:/code/openGL/drawTriangle/build/CMakeFiles/edit_cache.dir
+D:/code/openGL/drawTriangle/build/CMakeFiles/rebuild_cache.dir

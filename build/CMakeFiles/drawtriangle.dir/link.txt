@@ -1,0 +1,3 @@
+D:\app\cmake-3.26.4-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\drawtriangle.dir/objects.a
+D:\app\mingw64\bin\ar.exe qc CMakeFiles\drawtriangle.dir/objects.a @CMakeFiles\drawtriangle.dir\objects1.rsp
+D:\app\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\drawtriangle.dir/objects.a -Wl,--no-whole-archive -o D:\code\openGL\drawTriangle\bin\drawtriangle.exe -Wl,--out-implib,D:\code\openGL\drawTriangle\bin\libdrawtriangle.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\drawtriangle.dir\linkLibs.rsp

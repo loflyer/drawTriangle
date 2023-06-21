@@ -1,0 +1,20 @@
+[
+{
+  "directory": "D:/code/openGL/drawTriangle/build",
+  "command": "D:\\app\\mingw64\\bin\\gcc.exe  @CMakeFiles/drawtriangle.dir/includes_C.rsp -g -o CMakeFiles\\drawtriangle.dir\\src\\glad.c.obj -c D:\\code\\openGL\\drawTriangle\\src\\glad.c",
+  "file": "D:/code/openGL/drawTriangle/src/glad.c",
+  "output": "CMakeFiles/drawtriangle.dir/src/glad.c.obj"
+},
+{
+  "directory": "D:/code/openGL/drawTriangle/build",
+  "command": "D:\\app\\mingw64\\bin\\g++.exe  @CMakeFiles/drawtriangle.dir/includes_CXX.rsp -g -o CMakeFiles\\drawtriangle.dir\\src\\main.cpp.obj -c D:\\code\\openGL\\drawTriangle\\src\\main.cpp",
+  "file": "D:/code/openGL/drawTriangle/src/main.cpp",
+  "output": "CMakeFiles/drawtriangle.dir/src/main.cpp.obj"
+},
+{
+  "directory": "D:/code/openGL/drawTriangle/build",
+  "command": "D:\\app\\mingw64\\bin\\g++.exe  @CMakeFiles/drawtriangle.dir/includes_CXX.rsp -g -o CMakeFiles\\drawtriangle.dir\\src\\test.cpp.obj -c D:\\code\\openGL\\drawTriangle\\src\\test.cpp",
+  "file": "D:/code/openGL/drawTriangle/src/test.cpp",
+  "output": "CMakeFiles/drawtriangle.dir/src/test.cpp.obj"
+}
+]
