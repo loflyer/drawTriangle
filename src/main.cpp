@@ -3,6 +3,15 @@
 
 #include <iostream>
 
+// const char *vertexShaderSource = "#version 330 core\n"
+//     "layout (location = 0) in vec3 aPos;\n"
+//     "void main()\n"
+//     "{\n"
+//     "   gl_Position = vec4(aPos.x, aPos.y, aPos.z, 1.0);\n"
+//     "}\0";
+
+
+
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow *window);
 
@@ -43,6 +52,10 @@ int main()
         return -1;
     }    
 
+    int nrAttributes;
+    glGetIntegerv(GL_MAX_VERTEX_ATTRIBS, &nrAttributes);
+    std::cout << "Maximum nr of vertex attributes supported: " << nrAttributes << std::endl;
+
     // render loop
     // -----------
     while (!glfwWindowShouldClose(window))
@@ -53,12 +66,12 @@ int main()
 
         // render
         // ------
-        glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
+        glClearColor(1.0f, 0.0f, 0.0f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
 
         // glfw: swap buffers and poll IO events (keys pressed/released, mouse moved etc.)
         // -------------------------------------------------------------------------------
-        glfwSwapBuffers(window);
+        glfwSwapBuffers(window); // 双向缓冲区  后备缓冲区的内容交换到前台显示
         glfwPollEvents();
     }
 
